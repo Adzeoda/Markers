@@ -2,14 +2,28 @@ h1{
     text-align: center;
 }
 .container{
-    background-color: rgb(127, 127,127);
-    
+    background-color: rgb(0, 255,255);
+    border-radius: 12px;
 }
 .marker{
     width: 200px;
     height: 25px;
     margin: 10px auto;
+    text-align: left;
 }
 .one{
-    background-color: red;
+    background-color:rgb(255, 127, 127);
+    border-radius: 5px;
+}
+.two{
+    background-color: rgb(127, 255, 127);
+}
+.three{
+    background-color: rgb(127,127,255);
+}
+.horizontal{
+    background-color: black;
+    width: 30px;
+    height: 200px;
+    float: left;
 }
